@@ -1,0 +1,7 @@
+scanner.spec
+scanner.config
+*.csv
+__pycache__
+build
+dist
+.idea
