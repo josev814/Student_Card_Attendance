@@ -16,6 +16,7 @@ CONFIGFILE = 'scanner.config'
 APPW = 500
 APPH = 300
 
+
 class theClassPanel(wx.Panel):
     thisClass = None
 
@@ -340,7 +341,7 @@ class MyForm(wx.Frame):
 
     def OnAbout(self, event):
         """Display an About Dialog"""
-        wx.MessageBox("Written By Jose' Vargas\r\nWritten in Python 3.7\r\nPackages used:\r\nwxPython,getpass",
+        wx.MessageBox("Written By Jose' Vargas\r\nWritten in Python 3.7\r\nPackages used:\r\nwxPython,ConfigParser",
                       'About {}'.format(self.Title),
                       wx.OK | wx.ICON_INFORMATION)
 

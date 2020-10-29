@@ -1,9 +1,7 @@
-# Vault Query
-A Python application to query vault
+# Student Attendance scanner
+A Python application that allows taking attendance using a student id card with a card reader
 
-#Requirements
-Json
-
+# Requirements
 wxPython
 
 ConfigParser
