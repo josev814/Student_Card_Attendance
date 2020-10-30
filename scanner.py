@@ -1,9 +1,10 @@
 import datetime
 import os
-import wx
-import time
 import re
+import time
 from configparser import ConfigParser
+
+import wx
 
 attendance_file = 'attendance'
 filename_with_class = False
